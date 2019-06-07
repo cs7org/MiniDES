@@ -1,0 +1,23 @@
+New Load.LOAD1 Phases=1 Bus1=100.1 kV=0.23 kW=1 PF=0.95 Yearly=Shape_1
+! one phase load with kV the actual voltage across the load branch
+! base kW of 1 to which the multiplier refers to.
+! the power factor pf is 0.95
+New Load.LOAD2 Phases=1 Bus1=110.2 kV=0.23 kW=1 PF=0.95 Yearly=Shape_2
+New Load.LOAD3 Phases=1 Bus1=120.3 kV=0.23 kW=1 PF=0.95 Yearly=Shape_3
+New Load.LOAD4 Phases=1 Bus1=130.1 kV=0.23 kW=1 PF=0.95 Yearly=Shape_4
+New Load.LOAD5 Phases=1 Bus1=140.2 kV=0.23 kW=1 PF=0.95 Yearly=Shape_5
+New Load.LOAD6 Phases=1 Bus1=101.3 kV=0.23 kW=1 PF=0.95 Yearly=Shape_6
+New Load.LOAD7 Phases=1 Bus1=111.1 kV=0.23 kW=1 PF=0.95 Yearly=Shape_7
+New Load.LOAD8 Phases=1 Bus1=121.2 kV=0.23 kW=1 PF=0.95 Yearly=Shape_8
+New Load.LOAD9 Phases=1 Bus1=131.3 kV=0.23 kW=1 PF=0.95 Yearly=Shape_9
+New Load.LOAD10 Phases=1 Bus1=141.1 kV=0.23 kW=1 PF=0.95 Yearly=Shape_10
+New Load.LOAD11 Phases=1 Bus1=200.2 kV=0.23 kW=1 PF=0.95 Yearly=Shape_11
+New Load.LOAD12 Phases=1 Bus1=210.3 kV=0.23 kW=1 PF=0.95 Yearly=Shape_12
+New Load.LOAD13 Phases=1 Bus1=220.1 kV=0.23 kW=1 PF=0.95 Yearly=Shape_13
+New Load.LOAD14 Phases=1 Bus1=230.2 kV=0.23 kW=1 PF=0.95 Yearly=Shape_14
+New Load.LOAD15 Phases=1 Bus1=240.3 kV=0.23 kW=1 PF=0.95 Yearly=Shape_15
+New Load.LOAD16 Phases=1 Bus1=201.1 kV=0.23 kW=1 PF=0.95 Yearly=Shape_16
+New Load.LOAD17 Phases=1 Bus1=211.2 kV=0.23 kW=1 PF=0.95 Yearly=Shape_17
+New Load.LOAD18 Phases=1 Bus1=221.3 kV=0.23 kW=1 PF=0.95 Yearly=Shape_18
+New Load.LOAD19 Phases=1 Bus1=231.1 kV=0.23 kW=1 PF=0.95 Yearly=Shape_19
+New Load.LOAD20 Phases=1 Bus1=241.2 kV=0.23 kW=1 PF=0.95 Yearly=Shape_20

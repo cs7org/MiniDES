@@ -1,0 +1,265 @@
+ DBS File Read Report
+ 
+ Summary
+   Number of Fixed Variables      :            0
+   Number of Manipulated Variables:            0
+   Number of State Variables      :           37
+   Number of Controlled Variables :            0
+ 
+ Name: v1
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ v1.LOWER:   -3799.00000000000     
+ v1.UPPER:   0.000000000000000E+000
+ 
+ Name: v2
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ v2.LOWER:   -3799.00000000000     
+ v2.UPPER:   0.000000000000000E+000
+ 
+ Name: v3
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ v3.LOWER:   -3799.00000000000     
+ v3.UPPER:   0.000000000000000E+000
+ 
+ Name: v4
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ v4.LOWER:   -3799.00000000000     
+ v4.UPPER:   0.000000000000000E+000
+ 
+ Name: v5
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ v5.LOWER:   -3799.00000000000     
+ v5.UPPER:   0.000000000000000E+000
+ 
+ Name: v6
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ v6.LOWER:   -3799.00000000000     
+ v6.UPPER:   0.000000000000000E+000
+ 
+ Name: v7
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ v7.LOWER:   -3799.00000000000     
+ v7.UPPER:   0.000000000000000E+000
+ 
+ Name: v8
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ v8.LOWER:   -3799.00000000000     
+ v8.UPPER:   0.000000000000000E+000
+ 
+ Name: v9
+  Measurement Uninitialized, Using Model Value (   282.000000000000      
+ ) as Default for MEAS and LSTVAL
+ v9.LOWER:   -3799.00000000000     
+ v9.UPPER:    282.000000000000     
+ 
+ Name: v10
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ v10.LOWER:   -3799.00000000000     
+ v10.UPPER:   0.000000000000000E+000
+ 
+ Name: v11
+  Measurement Uninitialized, Using Model Value (   5042.00000000000      
+ ) as Default for MEAS and LSTVAL
+ v11.LOWER:   -5042.00000000000     
+ v11.UPPER:    5042.00000000000     
+ 
+ Name: v12
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ v12.LOWER:   -3799.00000000000     
+ v12.UPPER:   0.000000000000000E+000
+ 
+ Name: v13
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ v13.LOWER:   -3799.00000000000     
+ v13.UPPER:   0.000000000000000E+000
+ 
+ Name: v14
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ v14.LOWER:   -3799.00000000000     
+ v14.UPPER:   0.000000000000000E+000
+ 
+ Name: v15
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ v15.LOWER:   -3799.00000000000     
+ v15.UPPER:   0.000000000000000E+000
+ 
+ Name: v16
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ v16.LOWER:   -3799.00000000000     
+ v16.UPPER:   0.000000000000000E+000
+ 
+ Name: v17
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ v17.LOWER:   -3799.00000000000     
+ v17.UPPER:   0.000000000000000E+000
+ 
+ Name: v18
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ v18.LOWER:   -3799.00000000000     
+ v18.UPPER:   0.000000000000000E+000
+ 
+ Name: v19
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ v19.LOWER:  -1.234567890000000E+020
+ v19.UPPER:   1.234567890000000E+020
+ 
+ Name: slk_1
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ slk_1.LOWER:  -1.234567890000000E+020
+ slk_1.UPPER:   1.234567890000000E+020
+  Lower Bound Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for LOWER
+ 
+ Name: slk_2
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ slk_2.LOWER:  -1.234567890000000E+020
+ slk_2.UPPER:   1.234567890000000E+020
+  Lower Bound Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for LOWER
+ 
+ Name: slk_3
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ slk_3.LOWER:  -1.234567890000000E+020
+ slk_3.UPPER:   1.234567890000000E+020
+  Lower Bound Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for LOWER
+ 
+ Name: slk_4
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ slk_4.LOWER:  -1.234567890000000E+020
+ slk_4.UPPER:   1.234567890000000E+020
+  Lower Bound Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for LOWER
+ 
+ Name: slk_5
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ slk_5.LOWER:  -1.234567890000000E+020
+ slk_5.UPPER:   1.234567890000000E+020
+  Lower Bound Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for LOWER
+ 
+ Name: slk_6
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ slk_6.LOWER:  -1.234567890000000E+020
+ slk_6.UPPER:   1.234567890000000E+020
+  Lower Bound Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for LOWER
+ 
+ Name: slk_7
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ slk_7.LOWER:  -1.234567890000000E+020
+ slk_7.UPPER:   1.234567890000000E+020
+  Lower Bound Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for LOWER
+ 
+ Name: slk_8
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ slk_8.LOWER:  -1.234567890000000E+020
+ slk_8.UPPER:   1.234567890000000E+020
+  Lower Bound Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for LOWER
+ 
+ Name: slk_9
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ slk_9.LOWER:  -1.234567890000000E+020
+ slk_9.UPPER:   1.234567890000000E+020
+  Lower Bound Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for LOWER
+ 
+ Name: slk_10
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ slk_10.LOWER:  -1.234567890000000E+020
+ slk_10.UPPER:   1.234567890000000E+020
+  Lower Bound Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for LOWER
+ 
+ Name: slk_11
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ slk_11.LOWER:  -1.234567890000000E+020
+ slk_11.UPPER:   1.234567890000000E+020
+  Lower Bound Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for LOWER
+ 
+ Name: slk_12
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ slk_12.LOWER:  -1.234567890000000E+020
+ slk_12.UPPER:   1.234567890000000E+020
+  Lower Bound Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for LOWER
+ 
+ Name: slk_13
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ slk_13.LOWER:  -1.234567890000000E+020
+ slk_13.UPPER:   1.234567890000000E+020
+  Lower Bound Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for LOWER
+ 
+ Name: slk_14
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ slk_14.LOWER:  -1.234567890000000E+020
+ slk_14.UPPER:   1.234567890000000E+020
+  Lower Bound Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for LOWER
+ 
+ Name: slk_15
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ slk_15.LOWER:  -1.234567890000000E+020
+ slk_15.UPPER:   1.234567890000000E+020
+  Lower Bound Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for LOWER
+ 
+ Name: slk_16
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ slk_16.LOWER:  -1.234567890000000E+020
+ slk_16.UPPER:   1.234567890000000E+020
+  Lower Bound Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for LOWER
+ 
+ Name: slk_17
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ slk_17.LOWER:  -1.234567890000000E+020
+ slk_17.UPPER:   1.234567890000000E+020
+  Lower Bound Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for LOWER
+ 
+ Name: slk_18
+  Measurement Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for MEAS and LSTVAL
+ slk_18.LOWER:  -1.234567890000000E+020
+ slk_18.UPPER:   1.234567890000000E+020
+  Lower Bound Uninitialized, Using Model Value (  0.000000000000000E+000 
+ ) as Default for LOWER

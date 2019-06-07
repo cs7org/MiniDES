@@ -1,0 +1,22 @@
+New Loadshape.Shape_1 npts=(1440 4 * 7 *) minterval=1 mult=(file=jupyter_profiles\profile_idv_1.txt) useactual=no
+! multiplier time-series to the base kW defining the power
+! if mult > 0 then peer is consumer
+New Loadshape.Shape_2 npts=(1440 4 * 7 *) minterval=1 mult=(file=jupyter_profiles\profile_idv_2.txt) useactual=no
+New Loadshape.Shape_3 npts=(1440 4 * 7 *) minterval=1 mult=(file=jupyter_profiles\profile_idv_3.txt) useactual=no
+New Loadshape.Shape_4 npts=(1440 4 * 7 *) minterval=1 mult=(file=jupyter_profiles\profile_idv_4.txt) useactual=no
+New Loadshape.Shape_5 npts=(1440 4 * 7 *) minterval=1 mult=(file=jupyter_profiles\profile_idv_5.txt) useactual=no
+New Loadshape.Shape_6 npts=(1440 4 * 7 *) minterval=1 mult=(file=jupyter_profiles\profile_idv_6.txt) useactual=no
+New Loadshape.Shape_7 npts=(1440 4 * 7 *) minterval=1 mult=(file=jupyter_profiles\profile_idv_7.txt) useactual=no
+New Loadshape.Shape_8 npts=(1440 4 * 7 *) minterval=1 mult=(file=jupyter_profiles\profile_idv_8.txt) useactual=no
+New Loadshape.Shape_9 npts=(1440 4 * 7 *) minterval=1 mult=(file=jupyter_profiles\profile_idv_9.txt) useactual=no
+New Loadshape.Shape_10 npts=(1440 4 * 7 *) minterval=1 mult=(file=jupyter_profiles\profile_idv_10.txt) useactual=no
+New Loadshape.Shape_11 npts=(1440 4 * 7 *) minterval=1 mult=(file=jupyter_profiles\profile_idv_11.txt) useactual=no
+New Loadshape.Shape_12 npts=(1440 4 * 7 *) minterval=1 mult=(file=jupyter_profiles\profile_idv_12.txt) useactual=no
+New Loadshape.Shape_13 npts=(1440 4 * 7 *) minterval=1 mult=(file=jupyter_profiles\profile_idv_13.txt) useactual=no
+New Loadshape.Shape_14 npts=(1440 4 * 7 *) minterval=1 mult=(file=jupyter_profiles\profile_idv_14.txt) useactual=no
+New Loadshape.Shape_15 npts=(1440 4 * 7 *) minterval=1 mult=(file=jupyter_profiles\profile_idv_15.txt) useactual=no
+New Loadshape.Shape_16 npts=(1440 4 * 7 *) minterval=1 mult=(file=jupyter_profiles\profile_idv_16.txt) useactual=no
+New Loadshape.Shape_17 npts=(1440 4 * 7 *) minterval=1 mult=(file=jupyter_profiles\profile_idv_17.txt) useactual=no
+New Loadshape.Shape_18 npts=(1440 4 * 7 *) minterval=1 mult=(file=jupyter_profiles\profile_idv_18.txt) useactual=no
+New Loadshape.Shape_19 npts=(1440 4 * 7 *) minterval=1 mult=(file=jupyter_profiles\profile_idv_19.txt) useactual=no
+New Loadshape.Shape_20 npts=(1440 4 * 7 *) minterval=1 mult=(file=jupyter_profiles\profile_idv_20.txt) useactual=no

@@ -1,0 +1,36 @@
+New Line.LINE1 Bus1=1 Bus2=2 phases=3 Linecode=4c_.1 Length=200 Units=m
+! line has two terminals with three node-to-conductor connections
+! in this cause default of 1,2,3 phase of terminal to 1,2,3 node on bus
+! node0 is always voltage reference alias ground and exactly zero volts
+New Line.LINE2 Bus1=2 Bus2=3 phases=3 Linecode=4c_.06 Length=400 Units=m
+New Line.LINE3 Bus1=3 Bus2=10 phases=3 Linecode=4c_.06 Length=100 Units=m
+New Line.LINE4 Bus1=10 Bus2=11 phases=3 Linecode=4c_.06 Length=200 Units=m
+New Line.LINE5 Bus1=11 Bus2=12 phases=3 Linecode=4c_.06 Length=200 Units=m
+New Line.LINE6 Bus1=12 Bus2=13 phases=3 Linecode=4c_.06 Length=200 Units=m
+New Line.LINE7 Bus1=13 Bus2=14 phases=3 Linecode=4c_.06 Length=200 Units=m
+New Line.LINE8 Bus1=10 Bus2=100 phases=3 Linecode=2c_16 Length=200 Units=m
+New Line.LINE9 Bus1=11 Bus2=110 phases=3 Linecode=2c_16 Length=200 Units=m
+New Line.LINE10 Bus1=12 Bus2=120 phases=3 Linecode=2c_16 Length=200 Units=m
+New Line.LINE11 Bus1=13 Bus2=130 phases=3 Linecode=2c_16 Length=200 Units=m
+New Line.LINE12 Bus1=14 Bus2=140 phases=3 Linecode=2c_16 Length=200 Units=m
+New Line.LINE13 Bus1=10 Bus2=101 phases=3 Linecode=2c_16 Length=200 Units=m
+New Line.LINE14 Bus1=11 Bus2=111 phases=3 Linecode=2c_16 Length=200 Units=m
+New Line.LINE15 Bus1=12 Bus2=121 phases=3 Linecode=2c_16 Length=200 Units=m
+New Line.LINE16 Bus1=13 Bus2=131 phases=3 Linecode=2c_16 Length=200 Units=m
+New Line.LINE17 Bus1=14 Bus2=141 phases=3 Linecode=2c_16 Length=200 Units=m
+New Line.LINE18 Bus1=2 Bus2=4 phases=3 Linecode=4c_.06 Length=400 Units=m
+New Line.LINE19 Bus1=4 Bus2=20 phases=3 Linecode=4c_.06 Length=100 Units=m
+New Line.LINE20 Bus1=20 Bus2=21 phases=3 Linecode=4c_.06 Length=200 Units=m
+New Line.LINE21 Bus1=21 Bus2=22 phases=3 Linecode=4c_.06 Length=200 Units=m
+New Line.LINE22 Bus1=22 Bus2=23 phases=3 Linecode=4c_.06 Length=200 Units=m
+New Line.LINE23 Bus1=23 Bus2=24 phases=3 Linecode=4c_.06 Length=200 Units=m
+New Line.LINE24 Bus1=20 Bus2=200 phases=3 Linecode=2c_16 Length=200 Units=m
+New Line.LINE25 Bus1=21 Bus2=210 phases=3 Linecode=2c_16 Length=200 Units=m
+New Line.LINE26 Bus1=22 Bus2=220 phases=3 Linecode=2c_16 Length=200 Units=m
+New Line.LINE27 Bus1=23 Bus2=230 phases=3 Linecode=2c_16 Length=200 Units=m
+New Line.LINE28 Bus1=24 Bus2=240 phases=3 Linecode=2c_16 Length=200 Units=m
+New Line.LINE29 Bus1=20 Bus2=201 phases=3 Linecode=2c_16 Length=200 Units=m
+New Line.LINE30 Bus1=21 Bus2=211 phases=3 Linecode=2c_16 Length=200 Units=m
+New Line.LINE31 Bus1=22 Bus2=221 phases=3 Linecode=2c_16 Length=200 Units=m
+New Line.LINE32 Bus1=23 Bus2=231 phases=3 Linecode=2c_16 Length=200 Units=m
+New Line.LINE33 Bus1=24 Bus2=241 phases=3 Linecode=2c_16 Length=200 Units=m

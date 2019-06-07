@@ -1,0 +1,64 @@
+
+New Load.load1
+! ENABLED
+! NPhases = 3
+! Nconds = 4
+! Nterms = 1
+! Yorder = 4
+! NodeRef = "7 8 9 0 "
+! Terminal Status: [C C C C ]
+! Terminal Bus Ref: [3 3 3 3 ]
+
+! YPrim (G matrix)
+!  0.006301197227 |             0 |             0 | -0.006301197227 |
+!              0 | 0.006301197227 |             0 | -0.006301197227 |
+!              0 |             0 | 0.006301197227 | -0.006301197227 |
+!  -0.006301197227 | -0.006301197227 | -0.006301197227 | 0.01890361059 |
+! YPrim (B Matrix) = 
+!  -0.002071103372 |             0 |             0 | 0.002071103372 |
+!              0 | -0.002071103372 |             0 | 0.002071103372 |
+!              0 |             0 | -0.002071103372 | 0.002071103372 |
+!  0.002071103372 | 0.002071103372 | 0.002071103372 | -0.00621331633 |
+! VARIABLES
+~ phases=3
+~ bus1=100
+~ kV=0.398371685740842
+~ kW=     1.0
+~ pf=0.950
+~ model=1
+~ yearly=Shape_1
+~ daily=
+~ duty=
+~ growth=
+~ conn=wye
+~ kvar=     0.3
+~ Rneut=-1
+~ Xneut=0
+~ status=variable
+~ class=1
+~ Vminpu=0.90
+~ Vmaxpu=1.10
+~ Vminnorm=0.0
+~ Vminemerg=0.0
+~ xfkVA=0.0
+~ allocationfactor=0.500
+~ kVA=     1.1
+~ %mean=50
+~ %stddev=10
+~ CVRwatts=1
+~ CVRvars=2
+~ kwh=0
+~ kwhdays=30
+~ Cfactor=4
+~ CVRcurve=
+~ NumCust=1
+~ ZIPV="
+~ %SeriesRL=    50.0
+~ RelWeight=1
+~ Vlowpu=0.5
+~ puXharm=0
+~ XRharm=6
+~ spectrum=defaultload
+~ basefreq=50
+~ enabled=true
+~ like=

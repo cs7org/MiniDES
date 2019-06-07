@@ -1,0 +1,88 @@
+clear ! flush out previous circuit
+
+Set DefaultBaseFrequency=50  
+! European system has 50hz
+
+New circuit.LVTestMod
+! start new circuit derived from IEEETestCase LVTest
+
+Edit Vsource.Source BasekV=11 pu=1.05  ISC3=3000  ISC1=5
+! two-terminal voltage source behind impedance with 3 phases
+! basekv is rated U_ll
+! actual pu the assumed balanced source is operating on all phases
+! isc3 and isc1 define source impedance
+
+New Transformer.TR1 Buses=[SourceBus 1] Conns=[Delta Wye] kVs=[11 0.4]
+~ kVAs=[800 800] XHL=4 sub=y
+! Vsource is connected to the SourceBus which feeds into the TR1
+! two windings delta to wye bridging SourceBus to 1
+! windings ratings is 800 kVA each
+! percent reactance high-to-low alias w1 to w2 is XHL percent
+! make it a substation to show up differently on circuit plots
+
+Redirect LoadShapesIdv.txt
+
+!Redirect Loads.txt
+Redirect Loads_wye.txt
+BatchEdit Load..* Vminpu=0.90  Vmaxpu=1.10
+! manual: odss reverts to a linear model when the voltage drops below the value,
+! used to keep power const in range without scaling
+
+Redirect LineCode.txt
+! specify kind of line constructions regards impedance and phases
+Redirect Lines.txt
+!Redirect Lines_scaled.txt
+! two-port lines pi-model with shunt capacitance for power delivery
+! scaled has 10x the geo dimension
+
+New Monitor.LINE3_VI Element=Line.LINE3 Terminal=1 Mode=0
+New Monitor.LINE3_PQ Element=Line.LINE3 Terminal=1 Mode=1
+! record complex values versus time
+New energymeter.m1 Element=Transformer.TR1 Terminal=1
+! places energy-meter at the feeder head
+! gather data for voltage profile plots, losses etc.
+
+Set normvminpu=0.9
+Set normvmaxpu=1.1
+Set emergvminpu=0.85
+Set emergvmaxpu=1.15
+! sets the circuit plots upper and lower voltage level, use defaults
+
+Set voltagebases=[11  0.4]
+! legal base voltages U_LL in kV
+! to be set after the buses exist
+Calcvoltagebases
+! instantiates the buses voltage bases to the nearest in above array
+
+buscoords buscoords.txt
+!buscoords buscoords_scaled.txt
+! set x,y bus coordinates
+solve
+! ===============================
+
+set mode=yearly number=700 stepsize=1m !to review mid-day
+!set mode=yearly number=(1440 4 * 7 *) stepsize=1m
+! one month with one minute stepsize
+! loadshapes are npts=number and of multi resolution 1m
+
+Set casename='di_idv_700'
+! choose either subdirectory channel loadshape idv/col
+! stores all the demand interval data for jpn import
+
+Set DemandInterval=true
+! record energy quantities for each time step alias demand interval data
+
+Set overloadreport=true
+Set Voltexceptionreport=true    
+! more reports 
+Set DIVerbose=true      
+! separate demand interval for each meter not just totalizing meters
+
+solve
+! ===============================
+
+closedi
+! close demand interval files at end of run
+
+Export monitors object=LINE3_VI
+Export monitors object=LINE3_PQ
